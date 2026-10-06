@@ -368,7 +368,6 @@ export default function App() {
   const [submittedMessage, setSubmittedMessage] = useState<string | null>(null);
 
   // Field help tooltip popover
-  const [activeHelpField, setActiveHelpField] = useState<string | null>(null);
 
   // Calculate completeness
   const isFormComplete = useMemo(() => {
